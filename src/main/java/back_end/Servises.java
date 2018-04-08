@@ -5,45 +5,12 @@ import java.util.List;
 
 public class Servises {
 
-//    private List<String> numbers = new ArrayList<>();
-//    private List<String> letters = new ArrayList<>();
-//    private List<String> emptyStrings = new ArrayList<>();
-//    private List<String> combined = new ArrayList<>();
-
-
-//    public void testas() {
-//        System.out.println("numbers");
-//        for (String s : numbers) {
-//            System.out.println(s);
-//        }
-//        System.out.println("empty");
-//        for (String s : emptyStrings
-//                ) {
-//            System.out.println(s);
-//        }
-//        System.out.println("leatjers");
-//        for (String s : letters
-//                ) {
-//            System.out.println(s);
-//        }
-//        System.out.println("end list");
-//        System.out.println("combined");
-//        for (String s : combined
-//                ) {
-//            System.out.println(s);
-//        }
-//        System.out.println("end list");
-//
-//    }
-
-
-
     public boolean isNumeric(String str) {
         return str.matches("-?\\d+(\\.\\d+)?");
     }
 
-    public String firstElement(String list) {
-        String[] s = list.split("\\s+");
+    public String firstElement(String str) {
+        String[] s = str.split("\\s+");
         try {
             return s[0];
         } catch (ArrayIndexOutOfBoundsException e) {
@@ -52,7 +19,7 @@ public class Servises {
 
     }
 
-    private int minNumbersIndex(List<String> list) {
+    int minNumbersIndex(List<String> list) {
 
         int size = list.size();
         int index = 0;
@@ -72,7 +39,7 @@ public class Servises {
         return index;
     }
 
-    private int alphabetIndex(List<String> list) {
+    int alphabetIndex(List<String> list) {
 
         int size = list.size();
         int index = 0;
@@ -93,7 +60,7 @@ public class Servises {
 
     }
 
-    private static String jElementOfString(List<String> list, int i, int j) {
+    static String jElementOfString(List<String> list, int i, int j) {
         String[] s = list.get(i).split("\\s+");
         try {
             return s[j];

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e388b70-4fde-4868-9459-ac3b1c2a0662" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/back_end/DataTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/back_end/ServisesTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back_end/Data.java" afterPath="$PROJECT_DIR$/src/main/java/back_end/Data.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/back_end/Servises.java" afterPath="$PROJECT_DIR$/src/main/java/back_end/Servises.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/back_end/Data.class" afterPath="$PROJECT_DIR$/target/classes/back_end/Data.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/back_end/Servises.class" afterPath="$PROJECT_DIR$/target/classes/back_end/Servises.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,35 +20,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataSorting$All_in_DataSorting.coverage" NAME="All in DataSorting Coverage Results" MODIFIED="1523215702179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DataSorting$ServisesTest_whenGivnStringtListWithOneElementThenRetunNull.coverage" NAME="ServisesTest.whenGivnStringtListWithOneElementThenRetunNull Coverage Results" MODIFIED="1523215078364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataSorting$DataTest_whenNewListThenListSizeEquals.coverage" NAME="DataTest.whenNewListThenListSizeEquals Coverage Results" MODIFIED="1523216473799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataSorting$ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex.coverage" NAME="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex Coverage Results" MODIFIED="1523216339414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataSorting$DataTest.coverage" NAME="DataTest Coverage Results" MODIFIED="1523215726272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataSorting$ServisesTest_whenGivenStringtListThenRetunAlphabetIndex.coverage" NAME="ServisesTest.whenGivenStringtListThenRetunAlphabetIndex Coverage Results" MODIFIED="1523215989224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataSorting$ServisesTest.coverage" NAME="ServisesTest Coverage Results" MODIFIED="1523215911661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>back_end.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="0">
               <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -51,25 +56,24 @@
       <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#fillLists#0;class#Data#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="DataTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/back_end/DataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#whenNewListThenListSizeEquals#0;class#DataTest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,18 +91,36 @@
       <file leaf-file-name="Servises.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Servises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="333">
+              <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#96#151#0" expanded="false" />
                 <element signature="method#firstElement#0;class#Servises#0" expanded="false" />
                 <element signature="method#minNumbersIndex#0;class#Servises#0" expanded="false" />
                 <element signature="method#alphabetIndex#0;class#Servises#0" expanded="false" />
                 <element signature="method#jElementOfString#0;class#Servises#0" expanded="false" />
-                <element signature="method#compareNext#0;class#Servises#0" expanded="false" />
                 <element signature="method#sortNumbersLists#0;class#Servises#0" expanded="false" />
                 <element signature="method#sortLettersLists#0;class#Servises#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServisesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/back_end/ServisesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="94" column="63" lean-forward="false" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#whenStringIsNumericThenTrue#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenStringIsNotNumericThenFalse#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenStringtThenRetunFirstElement#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenEmptyStringtThenRetunNull#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenStringtListThenRetunSecondElement#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenStringtListWithOneElementThenRetunNull#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenStringtListThenRetunAlphabetIndex#0;class#ServisesTest#0" expanded="false" />
+                <element signature="method#whenGivenStringtListThenRetunMinNumbersIndex#0;class#ServisesTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,6 +146,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -145,10 +168,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/IOUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/IOUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/back_end/Data.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/files/input.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/back_end/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/back_end/Servises.java" />
+        <option value="$PROJECT_DIR$/src/test/java/back_end/ServisesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/back_end/DataTest.java" />
       </list>
     </option>
   </component>
@@ -190,6 +217,53 @@
               <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataSorting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataSorting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,6 +275,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="back_end" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,27 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DataTest.whenNewListThenListSizeEquals">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataSorting" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -249,6 +318,131 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="DataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="back_end.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataSorting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="back_end" />
+      <option name="MAIN_CLASS_NAME" value="back_end.DataTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DataTest.whenNewListThenListSizeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="back_end.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataSorting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="back_end" />
+      <option name="MAIN_CLASS_NAME" value="back_end.DataTest" />
+      <option name="METHOD_NAME" value="whenNewListThenListSizeEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ServisesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="back_end.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataSorting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="back_end" />
+      <option name="MAIN_CLASS_NAME" value="back_end.ServisesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ServisesTest.whenGivenStringtListThenRetunAlphabetIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="back_end.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataSorting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="back_end" />
+      <option name="MAIN_CLASS_NAME" value="back_end.ServisesTest" />
+      <option name="METHOD_NAME" value="whenGivenStringtListThenRetunAlphabetIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="back_end.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataSorting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="back_end" />
+      <option name="MAIN_CLASS_NAME" value="back_end.ServisesTest" />
+      <option name="METHOD_NAME" value="whenGivenStringtListThenRetunMinNumbersIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -322,9 +516,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ServisesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DataTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ServisesTest.whenGivenStringtListThenRetunAlphabetIndex" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DataTest.whenNewListThenListSizeEquals" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DataTest.whenNewListThenListSizeEquals" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ServisesTest.whenGivenStringtListThenRetunAlphabetIndex" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ServisesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -344,8 +549,41 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DataTest - 2018.04.08 at 22h 28m 48s.xml">
+      <configuration name="DataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataTest_whenNewListThenListSizeEquals - 2018.04.08 at 22h 41m 15s.xml">
+      <configuration name="DataTest.whenNewListThenListSizeEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest - 2018.04.08 at 22h 28m 54s.xml">
+      <configuration name="ServisesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest - 2018.04.08 at 22h 31m 53s.xml">
+      <configuration name="ServisesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunAlphabetIndex - 2018.04.08 at 22h 33m 10s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunAlphabetIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex - 2018.04.08 at 22h 35m 30s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex - 2018.04.08 at 22h 36m 39s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex - 2018.04.08 at 22h 37m 21s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex - 2018.04.08 at 22h 37m 40s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServisesTest_whenGivenStringtListThenRetunMinNumbersIndex - 2018.04.08 at 22h 39m 01s.xml">
+      <configuration name="ServisesTest.whenGivenStringtListThenRetunMinNumbersIndex" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -356,8 +594,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26262084" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28625134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -366,7 +605,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -408,7 +647,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -427,7 +666,6 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#fillLists#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -454,12 +692,10 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#96#151#0" expanded="false" />
             <element signature="method#firstElement#0;class#Servises#0" expanded="false" />
             <element signature="method#minNumbersIndex#0;class#Servises#0" expanded="false" />
             <element signature="method#alphabetIndex#0;class#Servises#0" expanded="false" />
             <element signature="method#jElementOfString#0;class#Servises#0" expanded="false" />
-            <element signature="method#compareNext#0;class#Servises#0" expanded="false" />
             <element signature="method#sortNumbersLists#0;class#Servises#0" expanded="false" />
             <element signature="method#sortLettersLists#0;class#Servises#0" expanded="false" />
           </folding>
@@ -483,7 +719,7 @@
         <state relative-caret-position="240">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -502,7 +738,6 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#fillLists#0;class#Data#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,12 +764,10 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#96#151#0" expanded="false" />
             <element signature="method#firstElement#0;class#Servises#0" expanded="false" />
             <element signature="method#minNumbersIndex#0;class#Servises#0" expanded="false" />
             <element signature="method#alphabetIndex#0;class#Servises#0" expanded="false" />
             <element signature="method#jElementOfString#0;class#Servises#0" expanded="false" />
-            <element signature="method#compareNext#0;class#Servises#0" expanded="false" />
             <element signature="method#sortNumbersLists#0;class#Servises#0" expanded="false" />
             <element signature="method#sortLettersLists#0;class#Servises#0" expanded="false" />
           </folding>
@@ -558,7 +791,7 @@
         <state relative-caret-position="336">
           <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,48 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/IOUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readFile#0;class#IOUtils#0" expanded="false" />
-            <element signature="method#writeToFile#0;class#IOUtils#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Servises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#96#151#0" expanded="false" />
-            <element signature="method#firstElement#0;class#Servises#0" expanded="false" />
-            <element signature="method#minNumbersIndex#0;class#Servises#0" expanded="false" />
-            <element signature="method#alphabetIndex#0;class#Servises#0" expanded="false" />
-            <element signature="method#jElementOfString#0;class#Servises#0" expanded="false" />
-            <element signature="method#compareNext#0;class#Servises#0" expanded="false" />
-            <element signature="method#sortNumbersLists#0;class#Servises#0" expanded="false" />
-            <element signature="method#sortLettersLists#0;class#Servises#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="0">
           <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -628,7 +823,7 @@
         <state relative-caret-position="336">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,25 +836,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Data.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1320">
+            <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="261">
+          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#fillLists#0;class#Data#0" expanded="false" />
+            <element signature="method#readFile#0;class#IOUtils#0" expanded="false" />
+            <element signature="method#writeToFile#0;class#IOUtils#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/back_end/ServisesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="94" column="63" lean-forward="false" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#whenStringIsNumericThenTrue#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenStringIsNotNumericThenFalse#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenStringtThenRetunFirstElement#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenEmptyStringtThenRetunNull#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenStringtListThenRetunSecondElement#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenStringtListWithOneElementThenRetunNull#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenStringtListThenRetunAlphabetIndex#0;class#ServisesTest#0" expanded="false" />
+            <element signature="method#whenGivenStringtListThenRetunMinNumbersIndex#0;class#ServisesTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Servises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#firstElement#0;class#Servises#0" expanded="false" />
+            <element signature="method#minNumbersIndex#0;class#Servises#0" expanded="false" />
+            <element signature="method#alphabetIndex#0;class#Servises#0" expanded="false" />
+            <element signature="method#jElementOfString#0;class#Servises#0" expanded="false" />
+            <element signature="method#sortNumbersLists#0;class#Servises#0" expanded="false" />
+            <element signature="method#sortLettersLists#0;class#Servises#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/back_end/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/back_end/DataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#whenNewListThenListSizeEquals#0;class#DataTest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

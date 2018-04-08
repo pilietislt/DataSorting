@@ -10,23 +10,25 @@ public class Data {
     private List<String> emptyStrings = new ArrayList<>();
     private List<String> combined = new ArrayList<>();
 
-    Servises testas = new Servises();
+    Servises servises = new Servises();
 
+    // gražina sugntą ir išsortiruotą list`ą
     public List<String> combineLists(List<String> list) {
         fillLists(list);
 
-        combined.addAll(testas.sortNumbersLists(numbers));
+        combined.addAll(servises.sortNumbersLists(numbers));
         combined.addAll(emptyStrings);
-        combined.addAll(testas.sortLettersLists(letters));
+        combined.addAll(servises.sortLettersLists(letters));
 
         return combined;
 
     }
 
+    // atskiria ir užpildo naujus ArrayList
     private void fillLists(List<String> list) {
 
         for (String s : list) {
-            if (testas.isNumeric(testas.firstElement(s))) {
+            if (servises.isNumeric(servises.firstElement(s))) {
                 numbers.add(s);
             } else if (s.equals("")) {
                 emptyStrings.add(s);
