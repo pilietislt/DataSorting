@@ -5,10 +5,11 @@ import java.util.List;
 
 public class Servises {
 
+    //tikrina ar paduotas String tipo kintamasis yra numeris
     public boolean isNumeric(String str) {
         return str.matches("-?\\d+(\\.\\d+)?");
     }
-
+    //iš paduoto String tipo kintamojo iškria pirmąjį elementą
     public String firstElement(String str) {
         String[] s = str.split("\\s+");
         try {
@@ -18,7 +19,7 @@ public class Servises {
         }
 
     }
-
+    //iš paduoto List`o grąžina mažiausio numerio index`ą
     int minNumbersIndex(List<String> list) {
 
         int size = list.size();
@@ -38,7 +39,7 @@ public class Servises {
         }
         return index;
     }
-
+    //iš paduoto List`o grąžina  alfabetine tvarka pirmos raidės index`ą
     int alphabetIndex(List<String> list) {
 
         int size = list.size();
@@ -59,7 +60,7 @@ public class Servises {
         return index;
 
     }
-
+    //iš paduoto List`o tipo kintamojo iškria i-osios eilutes ir j-jo stulpelio elementą
     static String jElementOfString(List<String> list, int i, int j) {
         String[] s = list.get(i).split("\\s+");
         try {
@@ -69,7 +70,7 @@ public class Servises {
         }
 
     }
-
+    //patikrina du vienodus kitamuosius ir grąžina mažesniojo indexą
     private static int compareNext(List<String> list, int index, int i, int j) {
 
         if (jElementOfString(list, index, j) != null && jElementOfString(list, i, j) != null) {
@@ -95,7 +96,7 @@ public class Servises {
         return index;
 
     }
-
+    //išsortiruoja NumbersLists didėjimo tvarka
     public List<String> sortNumbersLists(List<String> numbers) {
 
         int size = numbers.size();
@@ -109,7 +110,7 @@ public class Servises {
 
 
     }
-
+    //išsortiruoja LettersLists alfabetine tvarka
     public List<String> sortLettersLists(List<String> letters) {
 
         int size = letters.size();
